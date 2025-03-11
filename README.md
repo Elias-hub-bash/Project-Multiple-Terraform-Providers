@@ -1,5 +1,4 @@
-
-    Multiple Terraform Providers
+Multiple Terraform Providers
 
 Due to the plug-in based architecture of Terraform providers, it is easy to install and utilize multiple providers within the same Terraform configuration. 
 Along with the already configured AWS provider, we will install both the HTTP and Random providers.
