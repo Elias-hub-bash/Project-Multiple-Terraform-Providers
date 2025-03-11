@@ -1,8 +1,12 @@
-Terraform Provider Installation
 
-Terraform relies on plugins called "providers" to interact with remote systems and expand functionality. 
-Terraform configurations must declare which providers they require so that Terraform can install and use them. 
-This is performed within a Terraform configuration block.
+    Multiple Terraform Providers
 
-    1: Install Terraform AWS Provider
-    2: Verify Terraform and AWS Provider version
+Due to the plug-in based architecture of Terraform providers, it is easy to install and utilize multiple providers within the same Terraform configuration. 
+Along with the already configured AWS provider, we will install both the HTTP and Random providers.
+
+ 1: Install Terraform HTTP provider version
+ 2: Configure Terraform HTTP Provider
+ 3: Install Terraform Random provider version
+ 4: Configure Terraform Random Provider
+ 5: Install Terraform Local provider version
+
